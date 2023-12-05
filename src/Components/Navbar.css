@@ -1,0 +1,19 @@
+
+
+nav {
+
+    display: flex;
+}
+
+nav .link {
+    margin: 1rem;
+    background-color: brown;
+    padding: .5rem;
+    border-radius: 1rem;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.navbar-logo {
+    height: 50px;
+}
