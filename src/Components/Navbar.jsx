@@ -9,6 +9,7 @@ function Navbar() {
     <nav>
    
       <img src={Logo} alt="" className="navbar-logo" />
+      <h2>Bayern Munich</h2>
     
           <Link to="/" className="link">Home</Link>
        

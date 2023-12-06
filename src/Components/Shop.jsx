@@ -2,7 +2,8 @@ import React from 'react'
 
 function Shop() {
   return (
-    <h1>Shoping</h1>
+    <h2>Bayern Munich</h2>
+   
  
   )
 }
