@@ -14,6 +14,7 @@ function Neus() {
       .then((res) => {
        // debugger;
         setNeus(res.data.searchResults[0].date);
+        console.log(res.data);
       });
   }, []);
   return (
