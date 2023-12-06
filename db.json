@@ -1,0 +1,8 @@
+{
+    "articles": [
+      { "id": 1, "title": "FCB Trikot (heim)", "price": 69, "img": "", "category": "men" },
+      { "id": 2, "title": "FCB Trikot (auswärts)", "price": 79, "img": "", "category": "men" },
+      { "id": 3, "title": "FCB Set", "price": 169, "img": "", "category": "men" }
+
+    ]
+  }

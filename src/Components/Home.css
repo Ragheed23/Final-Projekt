@@ -1,7 +1,8 @@
 .home-hero-bg {
-    background-image: url("../assets/Arena.jpg");
+    background-image: url(../assets/Arena.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border: 1px solid red;
 }
+

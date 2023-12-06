@@ -14,9 +14,11 @@ function Navbar() {
        
           <Link to="/shop" className="link">Shop</Link>
           
-          <Link to="/neuheiten" className="link">Neuheiten</Link>
+          <Link to="/neus" className="link">Neus</Link>
           
-          <Link to="/weinachtsrabbatt" className="link">WeinachtsRabbatt</Link>
+          <Link to="/contact" className="link">Contact</Link>
+          
+          <Link to="/sale" className="link">Sale</Link>
 
     
     </nav>
