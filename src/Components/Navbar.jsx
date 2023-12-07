@@ -6,7 +6,7 @@ import Logo from "../assets/logo.jpg"
 
 function Navbar() {
   return (
-    <nav>
+    <div>
    
       <img src={Logo} alt="" className="navbar-logo" />
       <h2>Bayern Munich</h2>
@@ -22,7 +22,7 @@ function Navbar() {
           <Link to="/sale" className="link">Sale</Link>
 
     
-    </nav>
+    </div>
    
    
   );

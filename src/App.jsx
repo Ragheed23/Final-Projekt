@@ -19,6 +19,7 @@ function App() {
           <Route path="/neus" Component={Neus} />
           <Route path="/sale" Component={Sale} />
           <Route path="/contact" Component={Contact} />
+       
         </Routes>
       </BrowserRouter>
     </>
