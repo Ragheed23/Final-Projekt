@@ -1,31 +1,34 @@
 import React from "react";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 
 function Shop() {
   return (
     <div>
-      {/* <div>
-      <Link to="/herren" className="link">HERREN</Link>
-       
-       <Link to="/damen" className="link">DAMEN</Link>
-       
-       <Link to="/kinder" className="link">KINDER</Link>
-       
-       <Link to="/kappen" className="link">KAPPEN</Link>
-       
-       <Link to="/accessoires" className="link">ACCESSOIRES</Link>
+         <nav>
+      <Link to="/herren" className="shoplink">
+        HERREN
+      </Link>
 
-      </div>
-         */}
-      
+      <Link to="/damen" className="link">
+        DAMEN
+      </Link>
 
+      <Link to="/kinder" className="link">
+        KINDER
+      </Link>
 
-      <div className="rabatt">
-        BIS ZU 40% RABATT
-        <div>Benutze den Code: Winner</div>
-      </div>
+      <Link to="/ka" className="link">
+        Contact
+      </Link>
+
+      <Link to="/sale" className="link">
+        Sale
+      </Link>
+    </nav>
+    <div></div>
     </div>
+ 
   );
 }
 
