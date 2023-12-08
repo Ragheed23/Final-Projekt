@@ -7,6 +7,7 @@ import Navbar from "./Components/Navbar";
 import Neus from "./Components/Neus";
 import Contact from "./Components/Contact";
 import Sale from "./Sale";
+import Fotos from "./Components/Fotos";
 
 function App() {
   return (

@@ -4,17 +4,29 @@ nav {
 
     display: flex;
 }
+nav .link:hover {
+    background-color: aliceblue;
+    color: red;
+}
 
 nav .link {
     margin: 1rem;
-    background-color: brown;
+    border: 1px solid red;
+    margin-right: 3rem;
+    height: 20px;
+    background-color: red;
     padding: .5rem;
     border-radius: 1rem;
     color: whitesmoke;
     text-decoration: none;
+    font-family: 'Poppins',sans-serif;
 }
 
-.navbar-logo {
+.navbar-logo{
     height: 50px;
+ ;
 }
+
+
+
 

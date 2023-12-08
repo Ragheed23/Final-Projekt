@@ -1,0 +1,45 @@
+nav {
+    display: flex;
+    
+}
+
+.shoplink {
+    margin: 7rem;
+    margin-bottom: 1rem;
+    color: red;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    border: 3px;
+    height: 7rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    color: white;
+
+}
+
+
+.rabatt {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin-right: 10rem;
+    font-family: sans-serif
+}
+
+
+.winner {
+
+    border: 2px solid white;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+
+}
