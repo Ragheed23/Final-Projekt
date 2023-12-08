@@ -1,9 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Shop.css";
+// import "./Shop.css";
+import data from "../../db.json"
 
 function Shop() {
-  const warenkorb = (e) => {};
+  const products = data.articles
+  console.log(products)
+  const kaufen = (e) => {};
   return (
     <div>
       <nav>
@@ -34,6 +37,20 @@ function Shop() {
       </div>
       {/* KARTEN CONTAINER */}
       <div className="cardContainer">
+        {products.map((product) =>{
+              <p key={product.id}>
+              {product.id}
+
+              {product.title}  
+
+              {product.price}  
+
+              {product.img}
+
+              {product.category}    
+            </p>
+
+        })};
         {/* Item1 */}
         <div className="karten">
           <img
@@ -43,10 +60,10 @@ function Shop() {
           <p className="product">T-Shirt</p>
           <p>Price:</p>
           <div className="priceRow">
-            <p className="priceOld">75€</p>
-            <p className="price">Neu: 35€</p>
+            <p className="priceOld">alt: 75€</p>
+            <p className="price">neu: 35€</p>
           </div>
-          <button onClick={warenkorb}>Warenkorb</button>
+          <button onClick={kaufen}>Kaufen</button>
         </div>
         {/* Item2 */}
         <div className="karten">
@@ -57,10 +74,10 @@ function Shop() {
           <p className="product">T-Shirt</p>
           <p>Price:</p>
           <div className="priceRow">
-            <p className="priceOld">75€</p>
-            <p className="price">Neu: 35€</p>
+            <p className="priceOld">alt: 75€</p>
+            <p className="price">neu: 35€</p>
           </div>
-          <button onClick={warenkorb}>Warenkorb</button>
+          <button onClick={kaufen}>kaufen</button>
         </div>
         <div className="karten">
           <img
@@ -70,10 +87,36 @@ function Shop() {
           <p className="product">T-Shirt</p>
           <p>Price:</p>
           <div className="priceRow">
-            <p className="priceOld">75€</p>
-            <p className="price">Neu: 35€</p>
+            <p className="priceOld">alt: 75€</p>
+            <p className="price">neu: 35€</p>
           </div>
-          <button onClick={warenkorb}>Warenkorb</button>
+          <button onClick={kaufen}>kaufen</button>
+        </div>
+        <div className="karten">
+          <img
+            src="./Prodacts/fc-bayern-adidas-Herren T-shirt-2023-24.jpg"
+            alt=""
+          />
+          <p className="product">T-Shirt</p>
+          <p>Price:</p>
+          <div className="priceRow">
+            <p className="priceOld">alt: 75€</p>
+            <p className="price">neu: 35€</p>
+          </div>
+          <button onClick={kaufen}>kaufen</button>
+        </div>
+        <div className="karten">
+          <img
+            src="./Prodacts/fc-bayern-adidas-Herren T-shirt-2023-24.jpg"
+            alt=""
+          />
+          <p className="product">T-Shirt</p>
+          <p>Price:</p>
+          <div className="priceRow">
+            <p className="priceOld">alt: 75€</p>
+            <p className="price">neu: 35€</p>
+          </div>
+          <button onClick={kaufen}>kaufen</button>
         </div>
       </div>
     </div>

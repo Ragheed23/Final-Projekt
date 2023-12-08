@@ -4,5 +4,15 @@
     background-size: cover;
     background-position: center;
     /* border: 1px solid red; */
-    height: 70vh;
+    height: 100vh;
 }
+.home-hero-bg h1{
+    color: white;
+}
+
+.home-hero-bg p {
+    color: white;
+    width: 500px;
+}
+
+

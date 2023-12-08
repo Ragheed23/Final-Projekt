@@ -45,17 +45,24 @@ nav {
 }
 
 .cardContainer {
-    margin: 10px 0;
+    margin: 20px 0;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     display: flex;
     flex-direction: row;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .cardContainer p {
     margin: 0;
 }
+
+.cardContainer button:hover {
+    color: rgb(224, 233, 233);
+    background-color: red;
+}
+
 
 .cardContainer button {
     margin: 5px;
