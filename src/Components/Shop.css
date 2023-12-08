@@ -1,6 +1,6 @@
 nav {
     display: flex;
-    
+
 }
 
 .shoplink {
@@ -8,7 +8,7 @@ nav {
     margin-bottom: 1rem;
     color: red;
     text-decoration: none;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .container {
@@ -40,6 +40,55 @@ nav {
     font-size: 2rem;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
 
+
+}
+
+.cardContainer {
+    margin: 10px 0;
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.cardContainer p {
+    margin: 0;
+}
+
+.cardContainer button {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    color: red;
+}
+
+.priceOld {
+    text-decoration: line-through;
+}
+
+.priceRow {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.karten {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 210px;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.karten img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Shop.css";
-import ShopCard from "./ShopCard";
 
 function Shop() {
   const warenkorb = (e) => {};
@@ -28,21 +27,54 @@ function Shop() {
           ACCESSOIRES
         </Link>
       </nav>
-
+      {/* GESAMTER CONTENT CONTAINER */}
       <div className="container">
         <div className="rabatt">BIS ZU 40% RABATT</div>
         <div className="winner">BENUTZE DEN CODE : WINNER</div>
       </div>
-
-      <div>
-        <img
-          src="./Prodacts/fc-bayern-adidas-Herren T-shirt-2023-24.jpg"
-          alt=""
-        />
-        <p className="product">T-Shirt</p>
-        <p className="price">Price:75€</p>
-        <p className="price">35€</p>
-        <button onClick={warenkorb}>Warenkorb</button>
+      {/* KARTEN CONTAINER */}
+      <div className="cardContainer">
+        {/* Item1 */}
+        <div className="karten">
+          <img
+            src="./Prodacts/fc-bayern-adidas-Herren T-shirt-2023-24.jpg"
+            alt=""
+          />
+          <p className="product">T-Shirt</p>
+          <p>Price:</p>
+          <div className="priceRow">
+            <p className="priceOld">75€</p>
+            <p className="price">Neu: 35€</p>
+          </div>
+          <button onClick={warenkorb}>Warenkorb</button>
+        </div>
+        {/* Item2 */}
+        <div className="karten">
+          <img
+            src="./Prodacts/fc-bayern-adidas-Herren T-shirt-2023-24.jpg"
+            alt=""
+          />
+          <p className="product">T-Shirt</p>
+          <p>Price:</p>
+          <div className="priceRow">
+            <p className="priceOld">75€</p>
+            <p className="price">Neu: 35€</p>
+          </div>
+          <button onClick={warenkorb}>Warenkorb</button>
+        </div>
+        <div className="karten">
+          <img
+            src="./Prodacts/fc-bayern-adidas-Herren T-shirt-2023-24.jpg"
+            alt=""
+          />
+          <p className="product">T-Shirt</p>
+          <p>Price:</p>
+          <div className="priceRow">
+            <p className="priceOld">75€</p>
+            <p className="price">Neu: 35€</p>
+          </div>
+          <button onClick={warenkorb}>Warenkorb</button>
+        </div>
       </div>
     </div>
   );
