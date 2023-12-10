@@ -11,33 +11,25 @@
     },
     {
       "id": 2,
-      "title": "FCB Trikot (heim-ohne Nummer) ",
+      "title": "FCB Trikot (auswärts) ",
       "description": "Tolles Trikot für jedes Wetter",
       "url": "/Products/Herren-T-Shirt2.jpg",
       "price": 79,
-      "price_old": "",
+      "price_old": 50,
       "category": "Herren"
     },
     {
       "id": 3,
-      "title": "FCB (auswärts) ",
+      "title": "FCB Trikot (Trening) ",
       "description": "Tolles Trikot für jedes Wetter",
-      "url": "/Products/Herren-T-Shirt3.jpg",
+      "url": "/Products/Herren-T-Shirt3.webp",
       "price": 169,
       "price_old": 819,
       "category": "Herren"
     },
+   
     {
       "id": 4,
-      "title": "FCB (Kinder-set) ",
-      "description": "Tolles Trikot für jedes Wetter",
-      "url": "/Products/Kinder-set1.webp",
-      "price": 169,
-      "price_old": 819,
-      "category": "Kinder"
-    },
-    {
-      "id": 5,
       "title": "FCB (heim) ",
       "description": "Tolles Trikot für jedes Wetter",
       "url": "/Products/Damen-T-Shirt1 .webp",
@@ -46,13 +38,76 @@
       "category": "Damen"
     },
     {
-      "id": 6,
+      "id": 5,
       "title": "FCB (auswärts) ",
       "description": "Tolles Trikot für jedes Wetter",
       "url": "/Products/Damen-T-Shirt2 .webp",
       "price": 169,
       "price_old": 819,
       "category": "Damen"
+    },
+    {
+      "id": 6,
+      "title": "FCB (Trining) ",
+      "description": "Tolles Trikot für jedes Wetter",
+      "url": "/Products/Damen-T-Shirt3 .webp",
+      "price": 169,
+      "price_old": 819,
+      "category": "Damen"
+    },
+    {
+      "id": 7,
+      "title": "FCB (Kinder-set 1) ",
+      "description": "Tolles Trikot für jedes Wetter",
+      "url": "/Products/Kinder-set1.webp",
+      "price": 169,
+      "price_old": 819,
+      "category": "Kinder"
+    },
+    {
+      "id": 8,
+      "title": "FCB (Kinder-set 2) ",
+      "description": "Tolles Trikot für jedes Wetter",
+      "url": "/Products/Kinder-set2.jpg",
+      "price": 169,
+      "price_old": 819,
+      "category": "Kinder"
+    },
+    {
+      "id": 9,
+      "title": "FCB (Kinder-set 3) ",
+      "description": "Tolles Trikot für jedes Wetter",
+      "url": "/Products/Kinder-set3.webp",
+      "price": 169,
+      "price_old": 819,
+      "category": "Kinder"
+    },
+    {
+      "id": 10,
+      "title": "FCB (Schlüsselanhänger) ",
+      "description": "Tolles Trikot für jedes Wetter",
+      "url": "/Products/Accessoires1-Schlüsselanhänger.jpg",
+      "price": 169,
+      "price_old": 819,
+      "category": "Accessoires"
+    },
+    {
+      "id": 11,
+      "title": "FCB (Armband Uhr) ",
+      "description": "Tolles Trikot für jedes Wetter",
+      "url": "/Products/Accessoires2-Armband Uhr.jpg",
+      "price": 169,
+      "price_old": 819,
+      "category": "Accessoires"
+    },
+    {
+      "id": 12,
+      "title": "FCB (Schalle) ",
+      "description": "Tolles Trikot für jedes Wetter",
+      "url": "/Products/Accessoires3-Schalle.jpg",
+      "price": 169,
+      "price_old": 819,
+      "category": "Accessoires"
     }
   ]
 }
