@@ -20,7 +20,7 @@ function Neus() {
   return (
     <div>
        <p>{neus}</p>
-        <h1>Neus</h1>
+        <h1>News</h1>
     </div>
   )
 }

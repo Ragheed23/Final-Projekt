@@ -18,17 +18,14 @@ function Navbar() {
           Shop
         </Link>
 
-        <Link to="/neus" className="link">
-          Neus
+        <Link to="/news" className="link">
+          News
         </Link>
 
         <Link to="/contact" className="link">
           Contact
         </Link>
 
-        <Link to="/sale" className="link">
-          Sale
-        </Link>
       </nav>
     </div>
   );

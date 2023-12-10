@@ -4,9 +4,10 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./Components/Home";
 import Shop from "./Components/Shop";
 import Navbar from "./Components/Navbar";
-import Neus from "./Components/Neus";
+import News from "./Components/News";
 import Contact from "./Components/Contact";
-import Sale from "./Sale";
+import Footer from "./Components/Footer";
+
 
 
 function App() {
@@ -17,10 +18,11 @@ function App() {
         <Routes>
           <Route path="/" Component={Home} />
           <Route path="/shop" Component={Shop} />
-          <Route path="/neus" Component={Neus} />
-          <Route path="/sale" Component={Sale} />
+          <Route path="/news" Component={News} />
           <Route path="/contact" Component={Contact} />
         </Routes>
+
+        <Footer/>
       </BrowserRouter>
     </>
   );

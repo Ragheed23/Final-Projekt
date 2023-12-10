@@ -27,9 +27,7 @@ function Home() {
         <h1>section3</h1>
       </section>
 
-      <footer>
-        <h1>footer</h1>
-      </footer>
+     
     </div>
   );
 }

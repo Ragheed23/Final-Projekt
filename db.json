@@ -11,21 +11,48 @@
     },
     {
       "id": 2,
-      "title": "FCB Trikot (auswärts)",
+      "title": "FCB Trikot (heim-ohne Nummer) ",
       "description": "Tolles Trikot für jedes Wetter",
-      "url": "/Products/Herren-T-Shirt1.jpg",
+      "url": "/Products/Herren-T-Shirt2.jpg",
       "price": 79,
       "price_old": "",
       "category": "Herren"
     },
     {
       "id": 3,
-      "title": "FCB Set",
+      "title": "FCB (auswärts) ",
       "description": "Tolles Trikot für jedes Wetter",
-      "url": "/Products/Herren-T-Shirt1.jpg",
+      "url": "/Products/Herren-T-Shirt3.jpg",
       "price": 169,
       "price_old": 819,
       "category": "Herren"
+    },
+    {
+      "id": 4,
+      "title": "FCB (Kinder-set) ",
+      "description": "Tolles Trikot für jedes Wetter",
+      "url": "/Products/Kinder-set1.webp",
+      "price": 169,
+      "price_old": 819,
+      "category": "Kinder"
+    },
+    {
+      "id": 5,
+      "title": "FCB (heim) ",
+      "description": "Tolles Trikot für jedes Wetter",
+      "url": "/Products/Damen-T-Shirt1 .webp",
+      "price": 169,
+      "price_old": 819,
+      "category": "Damen"
+    },
+    {
+      "id": 6,
+      "title": "FCB (auswärts) ",
+      "description": "Tolles Trikot für jedes Wetter",
+      "url": "/Products/Damen-T-Shirt2 .webp",
+      "price": 169,
+      "price_old": 819,
+      "category": "Damen"
     }
   ]
 }
