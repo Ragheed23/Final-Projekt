@@ -5,7 +5,7 @@ function Home() {
   return (
     <div>
       <div className="home-hero-bg">
-        <h1>Title der Home Page</h1>
+        <h1>Wir müssen besser werden</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
           voluptates quibusdam laborum vero. Dolorum ratione unde placeat

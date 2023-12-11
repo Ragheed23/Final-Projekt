@@ -1,1 +1,11 @@
 
+.Contact {
+
+background-image: url(../assets/Allianz-Arena2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+/* border: 1px solid red; */
+height: 100vh;
+
+}

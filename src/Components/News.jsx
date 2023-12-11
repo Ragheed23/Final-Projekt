@@ -3,8 +3,8 @@ import axios from "axios";
 
 
 
-function Neus() {
-  const [neus, setNeus] = useState();
+function News() {
+  const [news, setNews] = useState();
 
   useEffect(() => {
     axios
@@ -13,16 +13,16 @@ function Neus() {
       )
       .then((res) => {
        // debugger;
-        setNeus(res.data.searchResults[0].date);
+        setNews(res.data.searchResults[0].date);
         console.log(res.data);
       });
   }, []);
   return (
     <div>
-       <p>{neus}</p>
+       <p>{news}</p>
         <h1>News</h1>
     </div>
   )
 }
 
-export default Neus
+export default News
