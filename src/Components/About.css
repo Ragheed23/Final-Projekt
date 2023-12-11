@@ -1,18 +1,25 @@
-.home-hero-bg {
-    background-image: url(../assets/Allianz-Arena.jpg);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.About{
+
+    background-image: url(../assets/Allianz-Arena2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     /* border: 1px solid red; */
     height: 100vh;
-}
-.home-hero-bg h1{
-    color: white;
+  
 }
 
-.home-hero-bg p {
+.About h1 {
+ color: white;   
+}
+
+.About p {
     color: white;
     width: 500px;
+
 }
-
-

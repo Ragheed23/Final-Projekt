@@ -45,13 +45,14 @@ nav {
 }
 
 .cardContainer {
-    margin: 20px 0;
+    margin: 50px 0;
     justify-content: center;
-    gap: 20px;
+    gap: 50px;
     display: flex;
     flex-direction: row;
     width: 100%;
     box-sizing: border-box;
+    flex-wrap: wrap;
 }
 
 .cardContainer p {
