@@ -1,35 +1,64 @@
-import React from "react";
-import "./Contact.css";
+import React, { useState } from 'react';
 
-function Contact() {
+const ContactForm = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(formData);
+    setFormData({
+      name: '',
+      email: '',
+      message: '',
+    });
+  };
+
   return (
-    <div className="container">
-      <h1>Contact Us</h1>
-      <p>Lorem ipsum</p>
-
-      <div id="contact-container">
-        <div className="contact-info">
-          <h4>
-            Contact Information
-            </h4>
-          <p>text</p>
-          <div className="icon-text">
-            <i className="icon"></i>
-            <span>text</span>
-          </div>
-          <div className="social-media">
-            <a href="#" className="icon-circle">
-              <i className="icon"></i>
-            </a>
-          
-          </div>
-        </div>
-        <form>
-
-        </form>
+    <form onSubmit={handleSubmit}>
+      <div>
+        <label htmlFor="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          value={formData.name}
+          onChange={handleChange}
+        />
       </div>
-    </div>
+      <div>
+        <label htmlFor="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          value={formData.email}
+          onChange={handleChange}
+        />
+      </div>
+      <div>
+        <label htmlFor="message">Message:</label>
+        <textarea
+          id="message"
+          name="message"
+          value={formData.message}
+          onChange={handleChange}
+        />
+      </div>
+      <button type="submit">Submit</button>
+    </form>
   );
-}
+};
 
-export default Contact;
+export default ContactForm;
