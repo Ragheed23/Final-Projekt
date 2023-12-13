@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Home.css";
-import { Section1 } from "./section1";
+import  Section1  from "./Section1";
 
 function Home() {
   return (
@@ -17,11 +17,12 @@ function Home() {
       </section>
 
       <section>
-        <h1>section2</h1>
+        <h1>Mannschaft F.C. Bayern</h1>
+        
       </section>
 
       <section>
-        <h1>section3</h1>
+        <h1>Allianz Arena</h1>
       </section>
 
      

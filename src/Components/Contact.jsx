@@ -1,12 +1,14 @@
 import React from 'react'
-import "./Contact.css";
+import "./Contact.css"; 
 
 function Contact() {
   return (
-    <div>
-      <img src="Allianz-Arena2.jpg" alt="" />
+    <div className='contact-hero'>
+    
     </div>
+  
+    
   )
 }
 
-export default Contact;
+export default Contact

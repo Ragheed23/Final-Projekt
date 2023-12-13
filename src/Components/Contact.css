@@ -1,9 +1,10 @@
 
 
-.container {
+.contact-hero {
     background-image: url(../assets/Allianz-Arena2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
+

@@ -1,39 +1,65 @@
-import React from 'react';
-import Carousel from 'react-material-ui-carousel'
-import { Paper, Button } from '@mui/material'
-
-export function Section1(props)
-{
-    var items = [
-        {
-            name: "Random Name #1",
-            description: "Probably the most random thing you have ever seen!"
-        },
-        {
-            name: "Random Name #2",
-            description: "Hello World!"
-        }
-    ]
-
-    return (
-        <Carousel>
-            {
-                items.map( (item, i) => <Item key={i} item={item} /> )
-            }
-        </Carousel>
-    )
+import React from "react";
+import "./Section1.css";
+function Section1() {
+  return (
+    <div className="section1-pokal">
+      <div className="section1-pokal-box">
+        <img src="../assets/logo.jpg" alt="" />
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis
+          qui amet voluptatem iure suscipit iusto, est soluta optio voluptates,
+          impedit consectetur esse asperiores doloremque nulla culpa reiciendis,
+          explicabo unde autem officiis repellat. Cumque laborum quasi
+          consequuntur molestias ad minus ratione commodi voluptates vero
+          repudiandae accusamus impedit magni, aliquid nobis cupiditate.
+        </p>
+      </div>
+      <div className="section1-pokal-box">
+        <img src="../assets/logo.jpg" alt="" />
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis
+          qui amet voluptatem iure suscipit iusto, est soluta optio voluptates,
+          impedit consectetur esse asperiores doloremque nulla culpa reiciendis,
+          explicabo unde autem officiis repellat. Cumque laborum quasi
+          consequuntur molestias ad minus ratione commodi voluptates vero
+          repudiandae accusamus impedit magni, aliquid nobis cupiditate.
+        </p>
+      </div>
+      <div className="section1-pokal-box">
+        <img src="../assets/logo.jpg" alt="" />
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis
+          qui amet voluptatem iure suscipit iusto, est soluta optio voluptates,
+          impedit consectetur esse asperiores doloremque nulla culpa reiciendis,
+          explicabo unde autem officiis repellat. Cumque laborum quasi
+          consequuntur molestias ad minus ratione commodi voluptates vero
+          repudiandae accusamus impedit magni, aliquid nobis cupiditate.
+        </p>
+      </div>
+      <div className="section1-pokal-box">
+        <img src="../assets/logo.jpg" alt="" />
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis
+          qui amet voluptatem iure suscipit iusto, est soluta optio voluptates,
+          impedit consectetur esse asperiores doloremque nulla culpa reiciendis,
+          explicabo unde autem officiis repellat. Cumque laborum quasi
+          consequuntur molestias ad minus ratione commodi voluptates vero
+          repudiandae accusamus impedit magni, aliquid nobis cupiditate.
+        </p>
+      </div>
+      <div className="section1-pokal-box">
+        <img src="../assets/logo.jpg" alt="" />
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis
+          qui amet voluptatem iure suscipit iusto, est soluta optio voluptates,
+          impedit consectetur esse asperiores doloremque nulla culpa reiciendis,
+          explicabo unde autem officiis repellat. Cumque laborum quasi
+          consequuntur molestias ad minus ratione commodi voluptates vero
+          repudiandae accusamus impedit magni, aliquid nobis cupiditate.
+        </p>
+      </div>
+    </div>
+  );
 }
 
-function Item(props)
-{
-    return (
-        <Paper>
-            <h2>{props.item.name}</h2>
-            <p>{props.item.description}</p>
-
-            <Button className="CheckButton">
-                Check it out!
-            </Button>
-        </Paper>
-    )
-}
+export default Section1;
