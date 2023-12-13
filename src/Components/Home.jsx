@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Home.css";
+import { Section1 } from "./section1";
 
 function Home() {
   return (
@@ -12,7 +13,7 @@ function Home() {
       </div>
 
       <section>
-        <h1>section1</h1>
+    <Section1/>
       </section>
 
       <section>
