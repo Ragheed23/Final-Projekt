@@ -17,3 +17,8 @@
     background-color: red;
 
 }
+
+.newsButton {
+    border-radius: 5px;
+    text-decoration: none;
+}

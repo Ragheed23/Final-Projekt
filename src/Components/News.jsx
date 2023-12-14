@@ -27,7 +27,7 @@ function News() {
             <img src={artikel.teaserImage.imageVariants["16x9-512"]} alt="" />
             <p>{artikel.title}</p>
 
-            <button>
+            <button className="newsButton">
               <a href={artikel.shareURL} target="_blank">
                 Bitte Lesen
               </a>
