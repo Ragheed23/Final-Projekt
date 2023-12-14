@@ -3,7 +3,7 @@ import "./About.css";
 
 function About() {
   return (
-    <div className="About">
+    <div className="about">
       <div className="manschaft">
         <img src="./Manschaft/triple_ima_040613.jpg" alt="" />
         <h3>2010-2013</h3>

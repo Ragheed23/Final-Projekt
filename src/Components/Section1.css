@@ -1,3 +1,22 @@
 .section1-pokal {
     display: flex;
+    width: 100%;
+    padding: 20px;
+
+}
+
+.section1-pokal-box {
+    margin: 2px;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgb(244, 243, 233);
+    font-size: small;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 1px;
+}
+
+.section1-pokal-box:hover {
+    background:none;
 }

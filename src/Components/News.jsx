@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import "./News.css"
+import "./News.css";
 
 function News() {
   const [news, setNews] = useState();
@@ -18,17 +18,23 @@ function News() {
   }, []);
   return (
     <div className="newsContainer">
-      <h1>++++++++++++++++++++ News ++++++++++++++++++++</h1>
-      {data.map((artikel, index) => (
-        <div key={index}>
-          <img src={artikel.teaserImage.imageVariants["16x9-512"]} alt="" />
-          <p>{artikel.title}</p>
+      <div className="news-1">
+        <h1>News</h1>
+      </div>
+      <div className="">
+        {data.map((artikel, index) => (
+          <div className="newsContainer-artikel" key={index}>
+            <img src={artikel.teaserImage.imageVariants["16x9-512"]} alt="" />
+            <p>{artikel.title}</p>
 
-          <a href={artikel.shareUrl} target="_blank">
-            Bitte Lesen
-          </a>
-        </div>
-      ))}
+            <button>
+              <a href={artikel.shareURL} target="_blank">
+                Bitte Lesen
+              </a>
+            </button>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
