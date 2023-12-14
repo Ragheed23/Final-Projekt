@@ -3,7 +3,9 @@ import "./Footer.css"
 
 function Footer() {
   return (
-    <div className='footer'>Footer</div>
+    <div className='footer'>
+        <img src="./Footer/Screenshot 2023-12-14 100737.jpg" alt="" />
+    </div>
   )
 }
 

@@ -4,60 +4,77 @@ function Section1() {
   return (
     <div className="section1-pokal">
       <div className="section1-pokal-box">
-        <img src="../assets/logo.jpg" alt="" />
+        <img src="./pokale/dfl_pokale.jpg" alt="" />
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis
-          qui amet voluptatem iure suscipit iusto, est soluta optio voluptates,
-          impedit consectetur esse asperiores doloremque nulla culpa reiciendis,
-          explicabo unde autem officiis repellat. Cumque laborum quasi
-          consequuntur molestias ad minus ratione commodi voluptates vero
-          repudiandae accusamus impedit magni, aliquid nobis cupiditate.
+       German Championship
         </p>
+        <h2>33</h2>
       </div>
       <div className="section1-pokal-box">
-        <img src="../assets/logo.jpg" alt="" />
+        <img src="./pokale/dfb_pokale.jpg" alt="" />
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis
-          qui amet voluptatem iure suscipit iusto, est soluta optio voluptates,
-          impedit consectetur esse asperiores doloremque nulla culpa reiciendis,
-          explicabo unde autem officiis repellat. Cumque laborum quasi
-          consequuntur molestias ad minus ratione commodi voluptates vero
-          repudiandae accusamus impedit magni, aliquid nobis cupiditate.
+        DFB German Cup 
         </p>
+        <h2>20</h2>
       </div>
       <div className="section1-pokal-box">
-        <img src="../assets/logo.jpg" alt="" />
+        <img src="./pokale/cl_pokale.jpg" alt="" />
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis
-          qui amet voluptatem iure suscipit iusto, est soluta optio voluptates,
-          impedit consectetur esse asperiores doloremque nulla culpa reiciendis,
-          explicabo unde autem officiis repellat. Cumque laborum quasi
-          consequuntur molestias ad minus ratione commodi voluptates vero
-          repudiandae accusamus impedit magni, aliquid nobis cupiditate.
+       Champions League
         </p>
+        <h2>6</h2>
       </div>
       <div className="section1-pokal-box">
-        <img src="../assets/logo.jpg" alt="" />
+        <img src="./pokale/supercup.jpg" alt="" />
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis
-          qui amet voluptatem iure suscipit iusto, est soluta optio voluptates,
-          impedit consectetur esse asperiores doloremque nulla culpa reiciendis,
-          explicabo unde autem officiis repellat. Cumque laborum quasi
-          consequuntur molestias ad minus ratione commodi voluptates vero
-          repudiandae accusamus impedit magni, aliquid nobis cupiditate.
+        German Supercup
         </p>
+        <h2>11</h2>
       </div>
       <div className="section1-pokal-box">
-        <img src="../assets/logo.jpg" alt="" />
+        <img src="./pokale/liga_pokal.jpg" alt="" />
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis
-          qui amet voluptatem iure suscipit iusto, est soluta optio voluptates,
-          impedit consectetur esse asperiores doloremque nulla culpa reiciendis,
-          explicabo unde autem officiis repellat. Cumque laborum quasi
-          consequuntur molestias ad minus ratione commodi voluptates vero
-          repudiandae accusamus impedit magni, aliquid nobis cupiditate.
+        League Cup
         </p>
+        <h2>6</h2>
       </div>
+      <div className="section1-pokal-box">
+        <img src="./pokale/uefa_cup.jpg" alt="" />
+        <p>
+        UEFA Cup 
+        </p>
+        <h2>1</h2>
+      </div>
+      <div className="section1-pokal-box">
+        <img src="./pokale/ec_pokalsieger.jpg" alt="" />
+        <p>
+       UEFA Cup Winners'
+        </p>
+        <h2>1</h2>
+      </div>
+      <div className="section1-pokal-box">
+        <img src="./pokale/weltpokal.jpg" alt="" />
+        <p>
+      Intercontinental Cup
+        </p>
+        <h2>2</h2>
+      </div>
+      <div className="section1-pokal-box">
+        <img src="./pokale/klubweltmeisterschaft_.jpg" alt="" />
+        <p>
+       FIFA Club World
+        </p>
+        <h2>2</h2>
+      </div>
+      <div className="section1-pokal-box">
+        <img src="./pokale/eu_supercup.jpg" alt="" />
+        <p>
+      UEFA Supercup
+        </p>
+        <h2>2</h2>
+      </div>
+     
+    
     </div>
   );
 }
