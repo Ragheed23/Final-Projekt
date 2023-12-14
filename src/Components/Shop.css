@@ -100,3 +100,8 @@ nav {
     border: 1px solid red;
     box-sizing: border-box;
 }
+
+.button {
+    padding: 100px;
+    border-radius: 10px;
+}

@@ -20,16 +20,14 @@ function Shop() {
         <div className="winner">BENUTZE DEN CODE : WINNER</div>
       </div>
 
-      <nav>
-        <div className="button">
-          <button onClick={() => setFilter("Herren")}>Herren</button>
-          <button onClick={() => setFilter("Damen")}>Damen</button>
-          <button onClick={() => setFilter("Kinder")}>Kinder</button>
-          <button onClick={() => setFilter("Kappes")}>Kappes</button>
-          <button onClick={() => setFilter("Accessoires")}>Accessoires</button>
-          <button onClick={() => setFilter("Zurück")}>Züruck</button>
-        </div>
-      </nav>
+      <div className="button">
+        <button onClick={() => setFilter("Herren")}>Herren</button>
+        <button onClick={() => setFilter("Damen")}>Damen</button>
+        <button onClick={() => setFilter("Kinder")}>Kinder</button>
+        <button onClick={() => setFilter("Kappes")}>Kappes</button>
+        <button onClick={() => setFilter("Accessoires")}>Accessoires</button>
+        <button onClick={() => setFilter("Zurück")}>Züruck</button>
+      </div>
 
       {/* KARTEN CONTAINER */}
       <div className="cardContainer">
