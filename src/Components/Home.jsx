@@ -7,8 +7,9 @@ function Home() {
   return (
     <div>
       <div className="home-hero-bg">
-        <h1>Wir sind immer die Besten</h1>
-        <p>mit uns werden Sie zufrieden sein</p>
+        <h4>JETZT BESTELLEN</h4>
+        <h1>Das perfekte Geschenk - <br />Gutscheine für die Allianz Arena</h1>
+       
       </div>
 
       <section className="fcb-pokale">

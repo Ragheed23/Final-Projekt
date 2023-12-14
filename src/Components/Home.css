@@ -1,5 +1,5 @@
 .home-hero-bg {
-    background-image: url(../assets/Allianz-Arena.jpg);
+    background-image: url(../assets/Gutschein-Allianz-Arena.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -13,7 +13,7 @@
     margin-top: 50px;
 }
 
-.home-hero-bg p {
+.home-hero-bg h4 {
     color: white;
     width: 500px;
     font-size: 30px;
