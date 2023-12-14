@@ -7,7 +7,7 @@ function Home() {
   return (
     <div>
       <div className="home-hero-bg">
-        <h1>Wir sind immer die beste</h1>
+        <h1>Wir sind immer die Besten</h1>
         <p>mit uns werden Sie zufrieden sein</p>
       </div>
 

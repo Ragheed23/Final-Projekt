@@ -1,49 +1,40 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
 import "./Shop.css";
 import data from "../../db.json";
 function Shop() {
   const articles = data.products;
   console.log(articles);
+  const [filter, setFilter] = useState("");
+  const filteredProducts = articles.filter((product) =>
+    product.category.toLowerCase().includes(filter.toLowerCase())
+  );
 
   const kaufen = (id) => {
     alert(`Du hast das Produkt mit der ID ${id} gewählt`);
   };
   return (
     <div>
-
       {/* GESAMTER CONTENT CONTAINER */}
       <div className="container">
         <div className="rabatt">BIS ZU 40% RABATT</div>
         <div className="winner">BENUTZE DEN CODE : WINNER</div>
       </div>
-      
+
       <nav>
-        <Link to="/herren" className="shoplink">
-          HERREN
-        </Link>
-
-        <Link to="/damen" className="shoplink">
-          DAMEN
-        </Link>
-
-        <Link to="/kinder" className="shoplink">
-          KINDER
-        </Link>
-
-        <Link to="/kappen" className="shoplink">
-          KAPPEN
-        </Link>
-
-        <Link to="/accessoires" className="shoplink">
-          ACCESSOIRES
-        </Link>
+        <div className="button">
+          <button onClick={() => setFilter("Herren")}>Herren</button>
+          <button onClick={() => setFilter("Damen")}>Damen</button>
+          <button onClick={() => setFilter("Kinder")}>Kinder</button>
+          <button onClick={() => setFilter("Kappes")}>Kappes</button>
+          <button onClick={() => setFilter("Accessoires")}>Accessoires</button>
+          <button onClick={() => setFilter("Zurück")}>Züruck</button>
+        </div>
       </nav>
-      
+
       {/* KARTEN CONTAINER */}
       <div className="cardContainer">
         {/* hier durch Datenbank durchschleifen und Karten generieren */}
-        {articles.map((article) => (
+        {filteredProducts.map((article) => (
           <div className="karten" key={article.id}>
             <img src={article.url} alt="picture" />
 
@@ -60,8 +51,6 @@ function Shop() {
             <button onClick={() => kaufen(article.id)}>Kaufen</button>
           </div>
         ))}
-
-     
       </div>
     </div>
   );
