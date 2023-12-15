@@ -16,7 +16,7 @@ function Home() {
         <Section1 />
       </section>
 
-      <section className="fcb-museum">
+      <section className="fcb-stadion">
         <Section2 />
       </section>
     </div>

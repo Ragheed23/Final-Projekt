@@ -25,17 +25,27 @@ nav .link {
     height: 50px;
     ;
 }
+
 #mobileNav {
     display: none;
 }
 
 @media (max-width:800px) {
-    #navbar{
+    #navbar {
         display: none;
     }
-    #mobileNav{
+
+    #mobileNav {
         display: inline-block;
     }
 
-    
+
+}
+
+#mobile {
+    display: none;
+}
+
+#home:checked~#mobile {
+    display: inline-block;
 }

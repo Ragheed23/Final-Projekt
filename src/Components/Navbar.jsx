@@ -32,7 +32,7 @@ function Navbar() {
       </nav>
       <div id="mobileNav">
         <input type="checkbox" id="home" />
-        <label htmlFor="home-1">H</label>
+        <label htmlFor="home-1"> <i class="fa-solid fa-bars"></i></label>
         <div id="mobile">
           <ul>
             <li><Link to="/" className="link">Home</Link></li>
