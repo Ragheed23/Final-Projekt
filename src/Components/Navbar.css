@@ -25,3 +25,17 @@ nav .link {
     height: 50px;
     ;
 }
+#mobileNav {
+    display: none;
+}
+
+@media (max-width:800px) {
+    #navbar{
+        display: none;
+    }
+    #mobileNav{
+        display: inline-block;
+    }
+
+    
+}

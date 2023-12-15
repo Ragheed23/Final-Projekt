@@ -6,7 +6,7 @@ import Logo from "../assets/logo.jpg";
 function Navbar() {
   return (
     <div>
-      <nav>
+      <nav id="navbar">
         <img src={Logo} alt="" className="navbar-logo" />
         <h2>Bayern Munich</h2>
 
@@ -30,6 +30,21 @@ function Navbar() {
         </Link>
 
       </nav>
+      <div id="mobileNav">
+        <input type="checkbox" id="home" />
+        <label htmlFor="home-1">H</label>
+        <div id="mobile">
+          <ul>
+            <li><Link to="/" className="link">Home</Link></li>
+            <li><Link to="/shop" className="link">Shop</Link></li>
+            <li><Link to="/news" className="link">News</Link></li>
+            <li><Link to="/about" className="link">About</Link></li>
+            <li><Link to="/contact" className="link">Contact</Link></li>
+           
+          </ul>
+        </div>
+        
+      </div>
     </div>
   );
 }
