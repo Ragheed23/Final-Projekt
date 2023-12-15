@@ -32,7 +32,7 @@ function About() {
       <div className="manschaft">
         <img src="./Manschaft/muller_maier_beckenbauer_22.12.76.jpg" alt="" />
         <h3>1966-1979</h3>
-        <p></p>
+        <p>The golden yrears</p>
       </div>
       <div className="manschaft">
         <img src="./Manschaft/pokalfinale_ima_291257.jpg" alt="" />

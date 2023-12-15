@@ -1,9 +1,25 @@
 .about {
-    margin: 0;
-    padding: 0;
-    
+    display: flex;
+    flex-wrap: wrap;
+width: 100%;
+
+
+
+
 }
 
 .manschaft {
-   width: 2rem;
+    width: 45%;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+
+.manschaft img {
+    width: 100%;
+
+}
+
+
+.manschaft p {
+    font-size: medium;
 }

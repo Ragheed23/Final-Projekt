@@ -5,8 +5,8 @@
       "title": "FCB Trikot (heim)",
       "description": "Tolles Trikot für jedes Wetter",
       "url": "/Products/Herren-T-Shirt1.jpg",
-      "price": 69,
       "price_old": 89,
+      "price": 69,
       "category": "Herren"
     },
     {
@@ -14,8 +14,8 @@
       "title": "FCB Trikot (auswärts) ",
       "description": "Tolles Trikot für jedes Wetter",
       "url": "/Products/Herren-T-Shirt2.jpg",
-      "price": 49,
       "price_old": 79,
+      "price": 49,
       "category": "Herren"
     },
     {
@@ -23,18 +23,18 @@
       "title": "FCB Trikot (Trening) ",
       "description": "Tolles Trikot für jedes Wetter",
       "url": "/Products/Herren-T-Shirt3.jpg",
-      "price": 39,
       "price_old": 69,
+      "price": 39,
       "category": "Herren"
     },
-   
+
     {
       "id": 4,
       "title": "FCB (heim) ",
       "description": "Tolles Trikot für jedes Wetter",
       "url": "/Products/Damen-T-Shirt1.jpg",
-      "price": 49,
       "price_old": 79,
+      "price": 49,
       "category": "Damen"
     },
     {
@@ -42,8 +42,8 @@
       "title": "FCB (auswärts) ",
       "description": "Tolles Trikot für jedes Wetter",
       "url": "/Products/Damen-T-Shirt2.jpg",
-      "price": 35,
       "price_old": 60,
+      "price": 35,
       "category": "Damen"
     },
     {
@@ -51,8 +51,8 @@
       "title": "FCB (Trining) ",
       "description": "Tolles Trikot für jedes Wetter",
       "url": "/Products/Damen-T-Shirt3.jpg",
-      "price": 30,
       "price_old": 60,
+      "price": 30,
       "category": "Damen"
     },
     {
@@ -60,8 +60,8 @@
       "title": "FCB (Kinder-set 1) ",
       "description": "Tolles Trikot für jedes Wetter",
       "url": "/Products/Kinder-set1.jpg",
-      "price": 40,
       "price_old": 70,
+      "price": 40,
       "category": "Kinder"
     },
     {
@@ -69,8 +69,8 @@
       "title": "FCB (Kinder-set 2) ",
       "description": "Tolles Trikot für jedes Wetter",
       "url": "/Products/Kinder-set2.jpg",
-      "price":35 ,
       "price_old": 65,
+      "price": 35,
       "category": "Kinder"
     },
     {
@@ -78,8 +78,8 @@
       "title": "FCB (Kinder-set 3) ",
       "description": "Tolles Trikot für jedes Wetter",
       "url": "/Products/Kinder-set3.jpg",
-      "price": 30,
       "price_old": 65,
+      "price": 30,
       "category": "Kinder"
     },
     {
@@ -87,8 +87,8 @@
       "title": "FCB (Schlüsselanhänger) ",
       "description": "Tolles Trikot für jedes Wetter",
       "url": "/Products/Accessoires1-Schlüsselanhänger.jpg",
-      "price": 8,
-      "price_old": 5,
+      "price_old": 8,
+      "price": 5,
       "category": "Accessoires"
     },
     {
@@ -96,8 +96,8 @@
       "title": "FCB (Armband Uhr) ",
       "description": "Tolles Trikot für jedes Wetter",
       "url": "/Products/Accessoires2-Armband Uhr.jpg",
-      "price": 80,
-      "price_old": 55,
+      "price_old": 80,
+      "price": 55,
       "category": "Accessoires"
     },
     {
@@ -105,8 +105,8 @@
       "title": "FCB (Schalle) ",
       "description": "Tolles Trikot für jedes Wetter",
       "url": "/Products/Accessoires3-Schalle.jpg",
-      "price": 14.90,
-      "price_old": 20.90,
+      "price_old": 20,
+      "price": 14,
       "category": "Accessoires"
     },
     {
@@ -114,8 +114,8 @@
       "title": "FCB (Schalle) ",
       "description": "Tolles Trikot für jedes Wetter",
       "url": "/Products/Kappen1.jpg",
-      "price": 16.95,
-      "price_old": 25.95,
+      "price_old": 25,
+      "price": 16,
       "category": "Kappen"
     },
     {
@@ -123,8 +123,8 @@
       "title": "FCB (Schalle) ",
       "description": "Tolles Trikot für jedes Wetter",
       "url": "/Products/Kappen2.jpg",
-      "price": 16.95,
-      "price_old": 26.95,
+      "price_old": 26,
+      "price": 16,
       "category": "Kappen"
     },
     {
@@ -132,8 +132,8 @@
       "title": "FCB (Schalle) ",
       "description": "Tolles Trikot für jedes Wetter",
       "url": "/Products/Kappen3.jpg",
-      "price": 16.95,
-      "price_old": 26.95,
+      "price_old": 26,
+      "price": 16,
       "category": "Kappen"
     }
   ]

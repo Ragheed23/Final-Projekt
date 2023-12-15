@@ -42,8 +42,9 @@ function Shop() {
 
             <div className="priceRow">
               <p>Preis:</p>
+
+              <p className="priceRow-p">{article.price_old} €</p>
               <p>{article.price} €</p>
-              <p className="priceRow-p">{article.price_old}</p>
             </div>
 
             <button onClick={() => kaufen(article.id)}>Kaufen</button>

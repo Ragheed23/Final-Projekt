@@ -16,7 +16,17 @@ function Contact() {
         />
       </div>
       <div className="form-group">
-        <label>Beschriftung E-Mail *</label>{" "}
+        <label>Nachname *</label>{" "}
+        <input
+          type="text"
+          class="form-control"
+          name="text_name"
+          placeholder="Placeholder Textfeld"
+          required="required"
+        />
+      </div>
+      <div className="form-group-3">
+        <label> E-Mail *</label>{" "}
         <input
           type="email"
           class="form-control"
@@ -24,7 +34,7 @@ function Contact() {
           placeholder="her your email"
         />
       </div>
-      <div className="form-group">
+      <div className="form-group-4">
         <label>Beschriftung Textarea</label>
         <textarea
           class="form-control"
@@ -32,7 +42,7 @@ function Contact() {
           placeholder="please here your message"
         ></textarea>
       </div>
-      <div class="form-group">
+      <div class="form-group-5">
         <input
           type="submit"
           class="btn btn-primary"
