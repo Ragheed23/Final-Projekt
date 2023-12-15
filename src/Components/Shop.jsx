@@ -26,7 +26,7 @@ function Shop() {
         <button onClick={() => setFilter("Kinder")}>Kinder</button>
         <button onClick={() => setFilter("Kappes")}>Kappes</button>
         <button onClick={() => setFilter("Accessoires")}>Accessoires</button>
-        <button onClick={() => setFilter("Zurück")}>Züruck</button>
+        <button onClick={() => setFilter("")}>Züruck</button>
       </div>
 
       {/* KARTEN CONTAINER */}

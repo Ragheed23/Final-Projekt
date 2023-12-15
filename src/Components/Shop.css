@@ -1,5 +1,8 @@
-nav {
+.button {
     display: flex;
+    gap: 50px;
+    padding: 100px;
+    border-radius: 20px;
 
 }
 
@@ -101,7 +104,3 @@ nav {
     box-sizing: border-box;
 }
 
-.button {
-    padding: 100px;
-    border-radius: 10px;
-}
