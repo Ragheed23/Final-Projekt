@@ -6,7 +6,7 @@ function Section2() {
     <div className="section2">
       <h1>Die Kapazität der Allianz-Arena</h1>
      <img src="./Kapatzität/Allianz_Arena1.jpg" alt="" />
-      <p>
+      <h2>
         Die Allianz Arena ist ein Fußballstadion im Norden der bayerischen
         Landeshauptstadt München. Sie bietet bei nationalen Spielen 75.024
         Plätze, zusammengesetzt aus 54.843 Sitzplätzen, 18.294 Stehplätzen,
@@ -22,7 +22,7 @@ function Section2() {
         1860 GmbH & Co. KGaA. Später erwarb die FC Bayern München AG die Anteile
         der TSV München von 1860 GmbH & Co. KGaA und ist nun alleinige
         Eigentümerin.
-      </p>
+      </h2>
     </div>
   );
 }

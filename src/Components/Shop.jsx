@@ -9,8 +9,8 @@ function Shop() {
     product.category.toLowerCase().includes(filter.toLowerCase())
   );
 
-  const kaufen = (id) => {
-    alert(`Du hast das Produkt mit der ID ${id} gewählt`);
+  const kaufen = (name) => {
+    alert(`Der Artikel ${name} wurde in den Warenkorb gelegt`);
   };
   return (
     <div className="shopContainer">
@@ -47,7 +47,7 @@ function Shop() {
               <p>{article.price} €</p>
             </div>
 
-            <button onClick={() => kaufen(article.id)}>Kaufen</button>
+            <button onClick={() => kaufen(article.title)}>Kaufen</button>
           </div>
         ))}
       </div>

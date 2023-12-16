@@ -1,3 +1,8 @@
+.section2 {
+    width: 100%;
+}
+
+
 .section2 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 30px;
@@ -6,10 +11,11 @@
 }
 
 
-.section2 p {
+.section2 h2 {
     text-align:justify;
     padding: 30px;
     margin-right: 10px;
+    
 
 }
 
