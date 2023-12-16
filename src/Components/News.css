@@ -15,7 +15,8 @@
 .Container1 {
     display: flex;
     flex-wrap: wrap;
-    gap: 100px;
+    gap: 2rem;
+    width: 90%;
     padding: 100px;
 
 
