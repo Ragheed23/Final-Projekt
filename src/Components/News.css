@@ -1,10 +1,19 @@
 .newsContainer-artikel {
 
-    display: flex;
-    flex-direction: row;
-    flex-wrap:initial;
+  
+    flex-direction:row;
+    
     text-align: center;
     align-items: center;
+}
+
+.Container1 {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 100px;
+    padding: 100px;
+
+
 }
 
 

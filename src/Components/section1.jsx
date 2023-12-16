@@ -2,8 +2,11 @@ import React from "react";
 import "./Section1.css";
 function Section1() {
   return (
-    <div className="section1-pokal">
+    <div className="section1">
+
+      {/* <div className="pokal">
       <h1>Honors</h1>
+      </div> */}
 
       <div className="section1-pokal-box">
         <img src="./pokale/dfl_pokale.jpg" alt="" />
