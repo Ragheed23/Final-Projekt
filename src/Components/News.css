@@ -1,17 +1,20 @@
-
-
 .newsContainer-artikel {
-
-  
-    flex-direction:row;
-    
+    flex-direction: row;
     text-align: center;
     align-items: center;
+    flex: 1;
+}
+
+.newsContainer-artikel p {
+    width: 40%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .Container1 {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     gap: 100px;
     padding: 100px;
 
@@ -33,6 +36,7 @@
     border-radius: 5px;
     text-decoration: none;
 }
+
 .newsButton a {
     text-decoration: none;
     color: red;
@@ -42,7 +46,7 @@
 @media (max-width:800px) {
     img {
         width: 100px;
-        border: 5px solid red ;
+        border: 5px solid red;
     }
 
 

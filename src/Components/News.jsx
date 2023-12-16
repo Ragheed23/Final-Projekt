@@ -25,13 +25,17 @@ function News() {
         {data.map((artikel, index) => (
           <div className="newsContainer-artikel" key={index}>
             <img src={artikel.teaserImage.imageVariants["16x9-512"]} alt="" />
-            <p>{artikel.title}</p>
-
-            <button className="newsButton">
-              <a href={artikel.shareURL} target="_blank">
-                Bitte Lesen
-              </a>
-            </button>
+            <div>
+              {" "}
+              <p>{artikel.title}</p>
+            </div>
+            <div>
+              <button className="newsButton">
+                <a href={artikel.shareURL} target="_blank">
+                  Bitte Lesen
+                </a>
+              </button>
+            </div>
           </div>
         ))}
       </div>

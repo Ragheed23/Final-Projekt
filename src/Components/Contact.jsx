@@ -1,62 +1,22 @@
-import React from 'react'
-import "./Contact.css"; 
+import React from "react";
+import "./Contact.css";
 
 function Contact() {
   return (
     <div className="contact-hero">
-    <form>
-      <div className="form-group">
-        <label>Name *</label>{" "}
-        <input
-          type="text"
-          class="form-control"
-          name="text_name"
-          placeholder="Placeholder Textfeld"
-          required="required"
-        />
+      <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
       </div>
-      <div className="form-group">
-        <label>Nachname *</label>{" "}
-        <input
-          type="text"
-          class="form-control"
-          name="text_name"
-          placeholder="Placeholder Textfeld"
-          required="required"
-        />
-      </div>
-      <div className="form-group-3">
-        <label> E-Mail *</label>{" "}
-        <input
-          type="email"
-          class="form-control"
-          name="email_name"
-          placeholder="her your email"
-        />
-      </div>
-      <div className="form-group-4">
-        <label>Beschriftung Textarea</label>
-        <textarea
-          class="form-control"
-          name="textarea_name"
-          placeholder="please here your message"
-        ></textarea>
-      </div>
-      <div class="form-group-5">
-        <input
-          type="submit"
-          class="btn btn-primary"
-          name="button_name"
-          value="Senden"
-        />
-      </div>
-      <small>Felder markiert mit * sind Pflichtfelder.</small>
-    </form>
-  </div>
-
-  
-    
-  )
-};
-
-export default Contact
+    </div>
+  );
+}
+export default Contact;
