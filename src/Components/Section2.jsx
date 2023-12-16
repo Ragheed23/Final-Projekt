@@ -5,7 +5,7 @@ function Section2() {
   return (
     <div className="section2">
       <h1>Die Kapazität der Allianz-Arena</h1>
-     <img src="./Kapatzität/Allianz_Arena1.jpg" alt="" />
+     <img src="./Kapatzität/Allianz_Arena1.jpg" alt="" className="section2-img" />
       <h2>
         Die Allianz Arena ist ein Fußballstadion im Norden der bayerischen
         Landeshauptstadt München. Sie bietet bei nationalen Spielen 75.024

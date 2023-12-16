@@ -24,7 +24,7 @@ function News() {
       <div className="Container1">
         {data.map((artikel, index) => (
           <div className="newsContainer-artikel" key={index}>
-            <img src={artikel.teaserImage.imageVariants["16x9-512"]} alt="" />
+            <img src={artikel.teaserImage.imageVariants["16x9-512"]} alt="" className="news-img" />
             <div>
               {" "}
               <p>{artikel.title}</p>
