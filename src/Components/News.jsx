@@ -14,6 +14,14 @@ function News() {
       .then((res) => {
         setData(res.data.searchResults);
         console.log(res.data.searchResults);
+
+        for (let i = 0; i < data.length; i++) {
+          console.log(
+            "ID ist ",
+            i,
+            res.data.searchResults[i].teaserImage.imageVariants["1x1-144"]
+          );
+        }
       });
   }, []);
   return (
@@ -24,7 +32,21 @@ function News() {
       <div className="Container1">
         {data.map((artikel, index) => (
           <div className="newsContainer-artikel" key={index}>
-            <img src={artikel.teaserImage.imageVariants["16x9-512"]} alt="" className="news-img" />
+            {/* Es kann manchmal sein, dass die API Antwort keine Bilder hat für einen Artikel */}
+            {artikel.teaserImage !== undefined ? (
+              <img
+                src={artikel.teaserImage.imageVariants["16x9-512"]}
+                alt=""
+                className="news-img"
+              />
+            ) : (
+              <h2>leider kein Bild vorhanden</h2>
+            )}
+            {/* <img
+              src={artikel.teaserImage.imageVariants["16x9-512"]}
+              alt=""
+              className="news-img"
+            /> */}
             <div>
               {" "}
               <p>{artikel.title}</p>

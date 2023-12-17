@@ -13,6 +13,7 @@
   }
   .contact-form label {
     display: block;
+    font-size:xx-large;
     margin-bottom: 8px;
     color: white;
   }
@@ -25,6 +26,11 @@
   }
   .contact-form h1 {
     color: white;
+  
+  }
+
+  .form {
+    width: 100%;
   }
   .contact-form button {
     background-color: #b1422c;
@@ -35,5 +41,6 @@
     cursor: pointer;
   }
 
+ 
  
  
