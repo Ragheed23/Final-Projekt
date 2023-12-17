@@ -39,7 +39,7 @@
   .contact-form button {
     background-color: red;
     color: #fff;
-    padding: 15px;
+    padding: 10px;
     border: none;
     border-radius: 10px;
     font-size: large;
@@ -55,7 +55,7 @@
 
   .contact-form button:hover {
     background-color: #fff;
-    color: #b1422c;
+    color: red;
   }
 
 

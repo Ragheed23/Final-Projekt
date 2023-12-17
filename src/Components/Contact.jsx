@@ -10,7 +10,7 @@ function Contact() {
           <form action="#" method="post" className="form-1">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required />
-            <label for="email">Email:</label>
+            <label for="email">E-mail:</label>
             <input type="email" id="email" name="email" required />
             <label for="message">Message:</label>
             <textarea id="message" name="message" rows="4" required></textarea>

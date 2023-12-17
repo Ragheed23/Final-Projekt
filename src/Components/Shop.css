@@ -3,10 +3,11 @@
     margin: 5rem;
     gap: 150px;
     padding: 10px;
-    
-   
+
+
 
 }
+
 .btn button {
     border-radius: 10px;
     margin-left: 10px;
@@ -72,16 +73,19 @@
 }
 
 .cardContainer button:hover {
-    color: rgb(224, 233, 233);
-    background-color: red;
+    color: red;
+    background-color: white;
 }
 
 
 .cardContainer button {
     margin: 5px;
-    padding: 5px;
+    padding: 8px;
     border-radius: 10px;
-    color: red;
+    text-align: center;
+    color: white;
+    background-color: red;
+    font-size: 20px;
 }
 
 .priceOld {
@@ -97,9 +101,10 @@
     flex-direction: row;
     gap: 20px;
     text-decoration: line-through;
-    
+
 
 }
+
 .priceRow {
     font-size: 20px;
 }
@@ -129,9 +134,12 @@
     img {
         width: 100px;
         height: inherit;
-      
+
     }
 
-
+    .rabatt {
+        margin-right: 0px;
+        font-size: 45px;
+    }
 
 }

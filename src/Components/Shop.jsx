@@ -21,12 +21,24 @@ function Shop() {
       </div>
 
       <div className="btn">
-        <button onClick={() => setFilter("Herren")}>Herren</button>
-        <button onClick={() => setFilter("Damen")}>Damen</button>
-        <button onClick={() => setFilter("Kinder")}>Kinder</button>
-        <button onClick={() => setFilter("Kappen")}>Kappen</button>
-        <button onClick={() => setFilter("Accessoires")}>Accessoires</button>
-        <button onClick={() => setFilter("")}>Züruck</button>
+        <div className="btn-internal">
+          <button onClick={() => setFilter("Herren")}>Herren</button>
+        </div>
+        <div>
+          <button onClick={() => setFilter("Damen")}>Damen</button>
+        </div>
+        <div>
+          <button onClick={() => setFilter("Kinder")}>Kinder</button>
+        </div>
+        <div>
+          <button onClick={() => setFilter("Kappen")}>Kappen</button>
+        </div>
+        <div>
+          <button onClick={() => setFilter("Accessoires")}>Accessoires</button>
+        </div>
+        <div>
+          <button onClick={() => setFilter("")}>Züruck</button>
+        </div>
       </div>
 
       {/* KARTEN CONTAINER */}
