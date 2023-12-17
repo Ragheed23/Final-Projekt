@@ -15,17 +15,19 @@
     display: block;
     font-size:x-large;
     margin-bottom: 8px;
-    color: white;
+    color: red;
   }
   .contact-form input, .contact-form textarea {
-    width: 40%;
+    width: 100%;
     padding: 8px;
+    border: 1.5px solid red;
+    border-radius: 5px;
     margin-bottom: 16px;
     box-sizing: border-box;
-    background:rgba(255, 255, 255, 0.801);
+ 
   }
   .contact-form h1 {
-    color: white;
+    color: red ;
     font-size: 50px;
   
   }
@@ -35,7 +37,7 @@
     margin-right: 100px;
   }
   .contact-form button {
-    background-color: #b1422c;
+    background-color: red;
     color: #fff;
     padding: 15px;
     border: none;
@@ -45,13 +47,18 @@
   }
 
   .contact-form form {
-    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 50%;
+    background:rgba(255, 255, 255, 0.689);
   }
 
   .contact-form button:hover {
     background-color: #fff;
     color: #b1422c;
   }
+
+
 
  
  
