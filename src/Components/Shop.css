@@ -145,8 +145,11 @@
 
     .rabatt {
         margin-right: 0px;
-        font-size: 45px;
+        padding: 5px;
+
+        font-size: 35px;
     }
+
 
     /* .btn-internal {
         
