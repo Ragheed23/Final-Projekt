@@ -37,7 +37,7 @@ function Shop() {
           <button onClick={() => setFilter("Accessoires")}>Accessoires</button>
         </div>
         <div className="btn-internal">
-          <button onClick={() => setFilter("")}>Züruck</button>
+          <button onClick={() => setFilter("")}>Alles</button>
         </div>
       </div>
 

@@ -14,14 +14,6 @@ function News() {
       .then((res) => {
         setData(res.data.searchResults);
         console.log(res.data.searchResults);
-
-        for (let i = 0; i < data.length; i++) {
-          console.log(
-            "ID ist ",
-            i,
-            res.data.searchResults[i].teaserImage.imageVariants["1x1-144"]
-          );
-        }
       });
   }, []);
   return (
