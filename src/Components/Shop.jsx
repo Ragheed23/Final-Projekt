@@ -24,19 +24,19 @@ function Shop() {
         <div className="btn-internal">
           <button onClick={() => setFilter("Herren")}>Herren</button>
         </div>
-        <div>
+        <div className="btn-internal">
           <button onClick={() => setFilter("Damen")}>Damen</button>
         </div>
-        <div>
+        <div className="btn-internal">
           <button onClick={() => setFilter("Kinder")}>Kinder</button>
         </div>
-        <div>
+        <div className="btn-internal">
           <button onClick={() => setFilter("Kappen")}>Kappen</button>
         </div>
-        <div>
+        <div className="btn-internal">
           <button onClick={() => setFilter("Accessoires")}>Accessoires</button>
         </div>
-        <div>
+        <div className="btn-internal">
           <button onClick={() => setFilter("")}>Züruck</button>
         </div>
       </div>

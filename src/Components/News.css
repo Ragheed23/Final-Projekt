@@ -2,7 +2,7 @@
     flex-direction: row;
     text-align: center;
     align-items: center;
-    flex: 1;
+    flex: 1px;
 }
 
 .newsContainer-artikel p {
@@ -48,6 +48,8 @@
     color: red;
     padding: 5px;
 }
+
+
 
 @media (max-width:800px) {
     news-img {
