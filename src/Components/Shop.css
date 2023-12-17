@@ -147,7 +147,11 @@
         margin-right: 0px;
         padding: 5px;
 
-        font-size: 35px;
+        font-size: 25px;
+    }
+
+    .winner {
+        font-size: 25px;
     }
 
 

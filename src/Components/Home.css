@@ -25,9 +25,19 @@
 }
 
 @media (max-width:800px) {
-    img {
-        width: 100px;
+    .home-hero-bg {
+        height: 40vh;
     }
+
+    .home-hero-bg h4 {
+        padding-top: 100px;
+    }
+
+    .home-hero-bg h1 {
+        font-size: 25px;
+    }
+
+
 
 
 }

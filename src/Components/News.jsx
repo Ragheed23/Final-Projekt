@@ -44,17 +44,18 @@ function News() {
               <p>{artikel.title}</p>
             </div>
             <div>
-              {artikel.shareURL !== undefind ? (
+              {artikel.shareURL !== undefined ? (
                 <button className="newsButton">
-                  <a href={artikel.shareURL} target="_blank">
-                    Bitte Lesen
-                  </a>
-                </button>
+                <a href={artikel.shareURL} target="_blank">
+                  Bitte Lesen
+                </a>
+              </button>
               ) : (
-                <button className="newsButton">
-                  <p>Keine Infos</p>
+                <button className="newsButton-1">
+                  <h4> Keine Infos</h4>
                 </button>
               )}
+              
             </div>
           </div>
         ))}

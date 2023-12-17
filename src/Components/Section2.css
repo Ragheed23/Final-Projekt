@@ -7,19 +7,30 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 30px;
     font-size: 30px;
-   
+
 }
 
 
 .section2 h2 {
-    text-align:justify;
+    text-align: justify;
     padding: 30px;
     margin-right: 10px;
-    
+
 
 }
 
 .section2-img {
     margin-left: 30px;
+
+}
+
+@media (max-width:800px) {
+
+    .section2-img {
+
+        width: 40rem;
+        margin-left: 30px;
+    }
+
 
 }
