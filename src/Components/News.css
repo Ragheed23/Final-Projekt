@@ -16,13 +16,21 @@
 .Container1 {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1rem;
     width: 90%;
-    padding: 100px;
+    padding: 80px;
+
 
 
 }
 
+.Container1 .news-img {
+    width: 400px;
+   
+  
+
+
+}
 
 .newsContainer h1 {
     width: 100%;
@@ -45,9 +53,10 @@
 
 .newsButton-1 p {
     color: red;
-    font-size:smaller;
+    font-size: smaller;
 }
-.newsButton a  {
+
+.newsButton a {
     text-decoration: none;
     color: red;
     padding: 5px;
