@@ -1,7 +1,6 @@
  .contact-form {
     background-color:#fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 100px;
     border-radius: 5px;
     background-image: url(../assets/Allianz-Arena2.jpg);
     background-repeat: no-repeat;
@@ -9,6 +8,7 @@
     background-position: center;
     height: 100vh; 
     width: 100%;
+
 
   }
   .contact-form label {
@@ -29,12 +29,15 @@
   .contact-form h1 {
     color: red ;
     font-size: 50px;
+    margin-left: 50px;
+
   
   }
 
   .form {
     width: 100%;
-    margin-right: 100px;
+    margin-left: 50px;
+
   }
   .contact-form button {
     background-color: red;
