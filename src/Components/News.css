@@ -29,7 +29,7 @@
     padding: 20px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3rem;
+    font-size: 4rem;
     background-color: red;
 
 }
@@ -56,9 +56,18 @@
 
 
 @media (max-width:800px) {
-    news-img {
+    .news-img {
         width: 100px;
         border: 5px solid red;
+    }
+
+    .newsContainer {
+        margin-right: 150px;
+    }
+
+    .newsContainer h1 {
+
+        margin-right: 500px;
     }
 
 
